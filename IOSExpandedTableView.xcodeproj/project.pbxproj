@@ -14,6 +14,8 @@
 		EC15F34426C0D611005CF8E1 /* IOSExpandedTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC15F34226C0D611005CF8E1 /* IOSExpandedTableView.xcdatamodeld */; };
 		EC15F34626C0D615005CF8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC15F34526C0D615005CF8E1 /* Assets.xcassets */; };
 		EC15F34926C0D615005CF8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC15F34726C0D615005CF8E1 /* LaunchScreen.storyboard */; };
+		EC15F35226C0DC01005CF8E1 /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15F35026C0DC01005CF8E1 /* SectionTableViewCell.swift */; };
+		EC15F35326C0DC01005CF8E1 /* SectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC15F35126C0DC01005CF8E1 /* SectionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EC15F34526C0D615005CF8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC15F34826C0D615005CF8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC15F34A26C0D615005CF8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC15F35026C0DC01005CF8E1 /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
+		EC15F35126C0DC01005CF8E1 /* SectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				EC15F34726C0D615005CF8E1 /* LaunchScreen.storyboard */,
 				EC15F34A26C0D615005CF8E1 /* Info.plist */,
 				EC15F34226C0D611005CF8E1 /* IOSExpandedTableView.xcdatamodeld */,
+				EC15F35026C0DC01005CF8E1 /* SectionTableViewCell.swift */,
+				EC15F35126C0DC01005CF8E1 /* SectionTableViewCell.xib */,
 			);
 			path = IOSExpandedTableView;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC15F34926C0D615005CF8E1 /* LaunchScreen.storyboard in Resources */,
+				EC15F35326C0DC01005CF8E1 /* SectionTableViewCell.xib in Resources */,
 				EC15F34626C0D615005CF8E1 /* Assets.xcassets in Resources */,
 				EC15F34126C0D611005CF8E1 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 				EC15F34426C0D611005CF8E1 /* IOSExpandedTableView.xcdatamodeld in Sources */,
 				EC15F33E26C0D611005CF8E1 /* ViewController.swift in Sources */,
 				EC15F33A26C0D611005CF8E1 /* AppDelegate.swift in Sources */,
+				EC15F35226C0DC01005CF8E1 /* SectionTableViewCell.swift in Sources */,
 				EC15F33C26C0D611005CF8E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
